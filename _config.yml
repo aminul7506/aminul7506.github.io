@@ -7,4 +7,4 @@ day_night: false
 # Your choice of font
 font: 'classic'  # No value = inherit font from color theme pack (e.g. minimal)
 # Your choice of font size
-font_size: xs
+font_size: XS
