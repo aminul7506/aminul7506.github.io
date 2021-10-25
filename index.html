@@ -245,11 +245,11 @@
         <ul class="ul-interests">
           <li>Software Engineering</li>
 
+          <li>Computer Vision</li>
+
           <li>Machine Learning</li>
 
           <li>Natural Language Processing</li>
-
-          <li>Computer Vision</li>
 
         </ul>
       </div>
@@ -310,12 +310,12 @@
 
             <img src="/images/thesis_image.png" alt="Flowchart of the System" style='float: left; height: 600px; margin-right: 20px; margin-top: 10px; margin-bottom: 0px;'>
 
-            <p>We have proposed a system that can present information of a human or an object to a user or visual inspector by analyzing
-              videos taken from multiple static CCTV cameras from area of interests. It can reduce manual effort of visual inspector on visual surveillance
+            <p>We have introduced and developed a system that can present information of a human or an object to a user or visual inspector by analyzing
+              videos taken from multiple sequential or partially overlapping static CCTV cameras from area of interests. It can reduce manual effort of visual inspector on visual surveillance
               system. For implementing the system, we need to recognize the input object in different video files taken from CCTV cameras. For recognizing the input
               object from frame to frame in video files, we have used <strong>Speeded Up Robust Features(SURF)</strong>. The recognized object in a frame has been used as a new input
               for recognizing the input object in next video frame so that the input object can be detected more accurately using <strong>SURF</strong> as object shape or orientation can
-              be changed over time. If there is a place in the area of interests where camera is defective or unavailable, we have developed a prediction algorithm for
+              be changed over time. If there is a place in the area of interests where camera is defective or unavailable, we have developed a movement prediction algorithm for
               predicting the movement of the input object in that specific place using the objects previous or next velocities in different cameras. For determining the
               average velocity of the input object in a camera, we have considered the total changes of pixels over time and then converted the pixel distance to actual
               meter distance. As meter distance between two pixels is not constant in relative to the center of the camera, we have built a four degree polynomial
@@ -324,7 +324,7 @@
 
 <!--            <h4>Status : Manuscript in Preparation</h4>-->
 
-            <h4>Thesis book is available <a href="/files/Scene_Reconstruction_from_Multiple_Static_CCTV_Cameras.pdf" target="_blank" rel="noopener">HERE</a></h4>
+            <h4><a href="/files/Scene_Reconstruction_from_Multiple_Static_CCTV_Cameras.pdf" target="_blank" rel="noopener">Thesis Book</a></h4>
 
           </div>
 
@@ -355,46 +355,46 @@
 
             <h4>Ridmik+</h4>
 
-            <p>Ridmik+ is an XMPP based secured messaging and social platform application for android.</p>
+            <p>Ridmik+ is an XMPP(Extensible Messaging and Presence Protocol) based secured
+                  messaging and social platform application for android</p>
 
             <ul>
-              <li>Worked in developing XMPP based one to one and group messaging, end-to-end encrypted messaging
-                and different security issues of the application</li>
-              <li>Working in the continuous development of the app specially on the messaging part</li>
+              <li>worked in developing XMPP based one to one and group messaging,
+                end-to-end encrypted messaging in client side and different security issues to protect user data in android device</li>
+              <li>working in the continuous development of the app specially in the messaging part</li>
             </ul>
 
-            <strong>Tools & Languages I have used : </strong>XMPP(Extensible Messaging and Presence Protocol), Signal Protocol, ejabberd api,
-            AES encryption, Android Studio, Java, Kotlin, SQL
+            <strong>Tools & Languages I have used : </strong>XMPP, Signal Protocol, ejabberd(XMPP server), AES encryption, Android Studio, Java,
+            Kotlin, SQL
 
             <h4><a href = "https://play.google.com/store/apps/details?id=ridmik.one" target="_blank" rel="noopener">Ridmik+</a> on Google Play</h4>
 
             <br>
             <h4>Bangla Article Summarizer(Research Project)</h4>
 
-            <p>Bangla Article Summarizer is a research project which gives the extractive summary of Bangla news articles.</p>
+            <p>Bangla article summarizer outputs an extractive Bangla summary of a given Bangla news article.</p>
 
             <ul>
-              <li>Performed research on making a Bangla article summarizer for a Bangla news article</li>
-              <li>Worked for developing Bangla article summarizer after research which was based on
-                TF-IDF(Term Frequency and Inverse Document Frequency), our prepared Bangla words dataset with POS(Parts of Speech) tagger,
-                K-means clustering algorithm and NLTK(Natural Language Toolkit) in python</li>
+              <li>worked for developing automated Bangla article summarizer using two methods(TF, TFIDF)
+                and mentioned tools and evaluated performance on news articles for each method</li>
             </ul>
 
-            <strong>Tools & Languages I have used : </strong>Python, NLTK, Clustering Algorithm, Bangla words dataset
+            <strong>Tools & Languages I have used : </strong>Python, NLTK, K-means Clustering Algorithm, our prepared Bangla Words Dataset,
+              TF(Term Frequency), TF-IDF(Term Frequency and Inverse Document Frequency), Sentence Ranking, Bangla Stemmer, Bangla Punctuation and Stop Words
 
             <br><br>
 
             <h4>Boitoi(Android)</h4>
 
-            <p>Boitoi(Android) is a secured android eBook reader with digital in-app book store.
-              It is currently the most popular eBook reader in Bangladesh which has around 500k users.</p>
+            <p> Boitoi(Android) is a secured android eBook reader and short story reader and editor
+              with in-App book store. It is currently the most popular eBook reader in Bangladesh which has around 500k users.</p>
 
             <ul>
-              <li>Worked in the complete development lifecycle of the application with successful launching, developed most of the functionalities
-                of the app</li>
-              <li>Performed research for the security(standard encryption and decryption) of how books will be stored in a user's android device and
-                decrypted in the device</li>
-              <li>Working as one of a programming advisors for the continuous development of the application</li>
+              <li>worked for developing secured eBook reader with in-App book store, short story reader
+              and editor, many more functionalities and working as one of a programming advisors for
+                the continuous development</li>
+              <li>made research on how books will be encrypted in server and decrypted in a specific user’s
+                  android device using user device unique info</li>
             </ul>
 
             <strong>Tools & Languages I have used : </strong>Android Studio, Java, Kotlin, Java Native Interface, C, SQL, JavaScript, HTML, CSS, XML,
@@ -406,13 +406,13 @@
 
             <h4>Boitoi(iOS)</h4>
 
-            <p>Boitoi(iOS) is a secured iOS eBook reader with digital in-app book store.</p>
+            <p>Boitoi(iOS) is a secured iOS eBook reader with in-App book store.</p>
 
             <ul>
               <li>Worked for the whole development of this project from its initial development to successful launching and
                 developed all the functionalities of the app</li>
-              <li>Performed research for the security(standard encryption and decryption) of how books will be stored in a user's iOS device and
-                decrypted in the device using iOS keychain</li>
+              <li>made research on how books will be encrypted in server and decrypted in a specific user’s
+                  iOS device using iOS keychain</li>
             </ul>
 
             <strong>Tools & Languages I have used : </strong>Xcode, Swift, Objective-C, C++, JavaScript, HTML, CSS, GRDB,
@@ -425,10 +425,11 @@
 
             <h4>Ridmik Keyboard</h4>
 
-            <p>Ridmik Keyboard is the most popular android keyboard in Bangladesh with Bangla phonetic keyboard which has around 50 million users.</p>
+            <p>Ridmik Keyboard is the most popular android keyboard in Bangladesh
+                  with Bangla phonetic keyboard, English and Arabic layout which has around 50 million users.</p>
 
             <ul>
-              <li>Worked on fixing some bugs, design changes, and implementing some new features in Ridmik Keyboard</li>
+              <li>worked on fixing some bugs, design changes, and implementing some new features</li>
             </ul>
 
             <strong>Tools & Languages I have used : </strong>Android Studio, Java, Kotlin, C, Java Native Interface
@@ -440,10 +441,11 @@
 
             <h4>Ridmik Account Kit</h4>
 
-            <p>Ridmik Account Kit is a library that helps Ridmik app users to quickly login to any Ridmik app just by using phone number.</p>
+            <p>Ridmik Account Kit is a library for android and iOS which is
+                  used to login to any Ridmik application using a single Ridmik account.</p>
 
             <ul>
-              <li>Worked for developing Ridmik Account Kit Library for both android and iOS application</li>
+              <li>worked for developing inter-app authentication and login screens for both android and iOS application</li>
             </ul>
 
             <strong>Tools & Languages I have used : </strong>Android Studio, Java, XML, Xcode, Swift, StoryBoard, iOS Keychain
@@ -462,8 +464,8 @@
             </p>
 
             <ul>
-              <li>Worked in developing backend, rest api and frontend of the application</li>
-              <li>Worked in developing an admin panel for uploading crime data on which AIST model will run in server</li>
+              <li>worked in developing backend, rest api and frontend of the application</li>
+              <li>worked in developing an admin panel for uploading crime data on which AIST model will be trained</li>
             </ul>
 
             <strong>Tools & Languages I have used : </strong> Django, Python, SQLite, HTML, CSS, Javascript, jQuery, REST API, tkinter
